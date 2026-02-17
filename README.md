@@ -4,11 +4,12 @@
 This project implements a computer vision pipeline to classify batik patterns using transfer learning.
 
 ## Dataset
-- ~600 images
+This project uses the Batik Image Dataset available on Kaggle:
+🔗 https://www.kaggle.com/your-dataset-link
 - Multi-class classification
-- Stratified 5-Fold Cross Validation
 
 ## Methodology
+- Stratified 5-Fold Cross Validation
 - Transfer Learning (EfficientNetB0)
 - Data Augmentation
 - Fine-tuning strategy
@@ -25,3 +26,5 @@ This project implements a computer vision pipeline to classify batik patterns us
 - Model generalization vs overfitting
 - Bias-variance tradeoff handling
 - Importance of preprocessing for EfficientNet
+
+https://www.kaggle.com/datasets/hamdanialikhsan/batik-motifs
